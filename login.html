@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form id="loginForm">
+        <div class="reg-form">
+          <div class="form-title">
+            <i class="fas fa-lock icon-font1"></i>
+            <h2>Log In</h2>
+            <span id="error"></span>
+          </div>
+          <div class="form-body">
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Username/Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  required
+                  class="form-control-plaintext"
+                  name="staticEmail"
+                  id="staticEmail"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"
+                >Password</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  required
+                  class="form-control"
+                  name="inputPassword"
+                  id="inputPassword"
+                />
+              </div>
+            </div>
+          </div>
+          <span id="loader">
+            <input type="submit" value="Log In" id="login" class="submit" />
+          </span>
+          <div class="form-links">
+            <a class="syslink" href="reset.html">Reset Password</a>
+            <a class="syslink" href="reg.html">Sign Up</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/login.js"></script>
+</html>

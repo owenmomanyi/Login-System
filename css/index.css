@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(185, 185, 185);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+}
+.error{
+    transition: all .3s ease;
+    color: rgb(235, 235, 235);
+    background-color: #df0000;
+    border-radius: 10px;
+    padding: 5px;
+}
+.search{
+    color: rgba(128, 128, 128, 0.904);
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    width: 60%;
+    background: #fefefe;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #2c048f;
+    padding: 10px;
+    text-align: left;
+    color: #fefefe;
+}
+tr{
+    border-bottom: solid 1px #2c048f;
+}
+td{
+    padding: 10px;
+}
+a{
+    color: #fefefe;
+}
+.nav{
+    z-index: 2;
+    display: flex;
+    justify-content: end;
+    color: #fefefe;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background: rgb(70, 70, 70);
+    height: 60px;
+}
+.controls{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: rgb(185, 185, 185);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    background: #ffffff;
+}
+#infoSearch{
+    display: flex;
+    justify-content: center;
+}
+#stat{
+    color: rgba(128, 128, 128, 0.904);
+}
+.window{
+    width: unset;
+    height: unset;
+}
+.inputs{
+    display: flex;
+}
+.edit-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.data-sheet{
+    margin: 20px;
+}
+.holder{
+    color: rgba(128, 128, 128, 0.904);
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form id="regForm">
+        <div class="reg-form">
+          <div class="form-title">
+            <i class="fas fa-contact-card icon-font1"></i>
+            <h2>Sign Up</h2>
+            <span id="error"></span>
+          </div>
+          <div class="form-body">
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Email</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="email"
+                  required
+                  class="reg-input form-control-plaintext"
+                  name="staticEmail"
+                  id="staticEmail"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Registration No.</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  required
+                  class="reg-input form-control-plaintext"
+                  name="reg"
+                  id="reg"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"
+                >Phone Number</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  required
+                  class="reg-input form-control-plaintext"
+                  name="phone"
+                  id="phone"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"
+                >Password</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  required
+                  class="reg-input form-control"
+                  name="inputPassword"
+                  id="password"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="inputPassword" class="col-sm-2 col-form-label"
+                >Confirm Password</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  required
+                  class="reg-input form-control"
+                  id="password_match"
+                />
+              </div>
+            </div>
+          </div>
+          <span id="loader">
+            <input type="submit" name="submit" class="submit" id="submit" />
+          </span>
+        </div>
+      </form>
+    </div>
+   </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/reg.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+</html>
